@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#080"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Good Luck"
+        android:gravity="center"
+        android:layout_margin="16dp"
+        android:textColor="#fff"
+         />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:background="#080">
+        <ImageView
+            android:id="@+id/card1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/c_black_joker"
+            android:layout_margin="8dp"
+            android:adjustViewBounds="true"
+            android:background="#fff" />
+        <ImageView
+            android:id="@+id/card2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/c_black_joker"
+            android:layout_margin="8dp"
+            android:adjustViewBounds="true"
+            android:background="#fff" />
+        <ImageView
+            android:id="@+id/card3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/c_black_joker"
+            android:layout_margin="8dp"
+            android:adjustViewBounds="true"
+            android:background="#fff" />
+        <ImageView
+            android:id="@+id/card4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/c_black_joker"
+            android:layout_margin="8dp"
+            android:adjustViewBounds="true"
+            android:background="#fff" />
+        <ImageView
+            android:id="@+id/card5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/c_black_joker"
+            android:layout_margin="8dp"
+            android:adjustViewBounds="true"
+            android:background="#fff" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="good luck" />
+
+
+</LinearLayout>
